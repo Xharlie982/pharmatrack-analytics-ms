@@ -1,0 +1,7 @@
+services:
+  analytics_ms:
+    build: .
+    env_file: .env
+    # Mapea al host 8080 para usar tu SG actual (ya abierto)
+    ports:
+      - "8080:8080"
